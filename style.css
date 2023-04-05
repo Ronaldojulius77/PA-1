@@ -1,0 +1,221 @@
+body {
+	background-image: url('Xampp/htdocs/PA 1/Web/halaman/Lake toba (2.jpeg)');
+	background-size: cover;
+	background-position: center;
+	font-size:16px
+  }
+  
+ 
+.content{
+	width: 80%;
+	margin: 10px auto;
+}
+ 
+/*header*/
+header{
+	background-color: white;
+	padding: 20px 10px;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+header h1.judul,
+header h3.deskripsi{
+	text-align: center;	
+}
+ 
+/*menu navigasi*/
+.menu{
+	background-color: #87CEFA;
+	border: 1px solid #f0f0f0;
+	border-radius: 8px;	
+	margin-bottom: 10px;
+}
+ 
+div.menu ul {
+	list-style:none;
+	overflow: hidden;
+}
+ 
+ 
+div.menu ul li {
+	float:right;		
+	text-transform:uppercase;
+}
+ 
+div.menu ul li a {
+	display:block;	
+	padding:0 20px;
+	text-decoration:none;
+	color:#2c2c2c;
+	font-family: sans-serif;
+	font-size:13px;
+	font-weight:400;
+	transition:all 0.3s ease-in-out;
+}
+ 
+div.menu ul li a:hover,
+div.menu ul li a.hoverover {	
+	cursor: pointer;	
+	color:#fff;
+}
+ 
+ 
+div.badan{
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #f0f0f0;
+	margin-bottom: 10px;
+}
+ 
+div.halaman{
+	text-align: center;
+	padding: 30px 20px;	
+}
+
+/* style untuk form kontak */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color:#007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
+
+/* style untuk pesan setelah form dikirimkan */
+.success {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d4edda;
+    border-radius: 5px;
+    color: #155724;
+    font-weight: bold;
+    text-align: center;
+}
+
+.error {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8d7da;
+    border-radius: 5px;
+    color: #721c24;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* style untuk halaman daftar link */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0069d9;
+}
+
+/* style untuk responsive layout */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+/* style untuk halaman galeri */
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	font-size: 2em;
+	margin-top: 0;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -10px;
+}
+
+.image {
+	flex: 1;
+	margin: 10px;
+}
+
+.image img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
